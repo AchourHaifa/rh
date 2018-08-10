@@ -8,6 +8,8 @@ class DefaultController extends Controller
 {
     public function indexAction()
     {
+        $a = 5 ;
         return $this->render('RhCentralBundle:Default:index.html.twig');
+
     }
 }
